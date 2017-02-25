@@ -1,0 +1,71 @@
+
+<!-- saved from url=(0051)https://www.tug.org/texlive/acquire-netinstall.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- $Id: acquire-netinstall.html,v 1.15 2016/06/05 18:14:55 karl Exp $ -->
+
+<title>Installing TeX Live over the Internet - TeX Users Group</title>
+<link rel="stylesheet" href="./Installing TeX Live over the Internet - TeX Users Group_files/tugstyle.css">
+</head><body>
+
+<h2>Installing TeX Live over the Internet</h2>
+
+<p>For typical needs, we recommend starting the TeX Live installation by
+downloading <a href="http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe">install-tl-windows.exe</a>
+for Windows (13mb), or <a href="http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz">install-tl-unx.tar.gz</a>
+(3.3mb) for everything else.  There is also a zip archive <a href="http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip">install-tl.zip</a>
+(17mb) which is the same as the <tt>.exe</tt>.  Although the .zip
+archive works fine on all platforms, the .tar.gz is much smaller, since
+it omits installation support programs needed only on Windows.  The
+archives are otherwise identical.
+
+</p><p>The above links use the <a href="http://ctan.org/#mirrors">generic
+mirror.ctan.org url</a> which autoredirects to a CTAN mirror that should
+be reasonably nearby and reasonably up to date.  However, perfect
+synchronization is not possible; if you have troubles following the
+links, your best bet is to choose explicitly from the <a href="http://ctan.org/mirrors">list of CTAN mirrors</a>.
+
+</p><p>After unpacking the archive, change to the resulting
+<tt>install-tl-*</tt> subdirectory.  Then follow the <a href="https://www.tug.org/texlive/quickinstall.html">quick installation instructions</a> or <a href="https://www.tug.org/texlive/doc/texlive-en/texlive-en.html">read the documentation</a>.
+
+</p><p>If you need to download through proxies, use a <tt>~/.wgetrc</tt>
+file or environment variables with the <a href="http://www.gnu.org/software/wget/manual/html_node/Proxies.html">proxy
+settings for wget</a>.  TeX Live always uses <a href="http://www.gnu.org/software/wget/">GNU wget</a> to download.
+
+</p><p>With this network-based installation method, what gets installed is
+the currently available versions of packages and programs.  This is in
+contrast with the <a href="https://www.tug.org/texlive/acquire.html">other installation methods</a>,
+which are kept stable between public releases.
+
+</p><p>Sources: the live network installation does not include the hundreds
+of megabytes of sources for the compiled programs.  The <a href="http://mirror.ctan.org/systems/texlive/Source/">sources for the
+current release</a> are on CTAN, and <a href="ftp://tug.org/historic/systems/texlive/">historical releases are
+also available</a>, and of course <a href="http://tug.org/svn/texlive/trunk/Master/source/">current
+development sources are in the repository</a>.
+
+</p><hr><a href="http://www.dante.de/tex/tl-install-windows.html">Deutsche
+Informationen zur TeX-Live-Installation unter Windows</a>.
+
+
+<small>
+</small><p><small>Information about <a href="https://www.tug.org/texlive/acquire-mirror.html">downloading/mirroring
+the TeX Live archive repository</a> is available separately, as well as
+<a href="https://www.tug.org/texlive/acquire.html">other ways to acquire TeX Live</a>.
+</small>
+
+</p><hr><small>$Date: 2016/06/05 18:14:55 $;
+<a href="https://www.tug.org/texlive/index.html">TeX Live</a>;</small>
+<!-- $Id: footer.html,v 1.18 2016/11/30 22:17:28 karl Exp $ (generic footer) -->
+<form method="get" action="https://duckduckgo.com/">
+<small>
+  <a href="https://www.tug.org/index.html">TUG home page</a>;
+  <a href="mailto:webmaster@tug.org">contact webmaster</a>;
+<!-- When a field names is added, must also add to compute_order in store. -->
+   <input type="hidden" name="sites" value="tug.org">
+   <input name="q" size="13" maxlength="99"><input type="submit" value="Search tug.org">
+   (via&nbsp;<a href="https://duckduckgo.com/">DuckDuckGo</a>)
+</small>
+</form>
+
+<!-- muffinresearch.co.uk/adding-a-duckduckgo-search-box-to-your-blog/ -->
+
+</body></html>

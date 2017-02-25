@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{Terry2013}
+Douglas~B Terry, Vijayan Prabhakaran, Ramakrishna Kotla, Mahesh Balakrishnan,
+  Marcos~K. Aguilera, and Hussam Abu-Libdeh.
+\newblock {Consistency-based service level agreements for cloud storage}.
+\newblock {\em Sosp}, pages 309--324, 2013.
+
+\bibitem{Lamport2001}
+Leslie Lamport.
+\newblock {Paxos Made Simple}.
+\newblock {\em ACM SIGACT News}, 32(4):51--58, 2001.
+
+\end{thebibliography}
